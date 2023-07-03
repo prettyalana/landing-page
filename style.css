@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
 
-
 body {
     margin: 0;
     padding: 0;
@@ -9,6 +8,7 @@ body {
     /* justify-content: center;
     align-items: center; */
     font-family: 'Grandiflora One', serif;
+    font-weight: 900;
 }
 
 .header {
@@ -88,26 +88,31 @@ a {
 
 .information {
     background: white;
-    /* text-align: center; */
-    display: flex;
-    justify-content: center;
-    /* height: 600px; */
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    height: 600px;
 }
 
-.info-container {
+.card-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
 }
 
 .info-header {
     font-weight: 900;
     font-size: 48px;
+    margin: 40px;
     /* text-align: center; */
+    /* display: flex; */
 }
 
-/* .card {
+.card {
     height: 200px;
     width: 200px;
-} */
+}
 
 .card img {
     height: 200px;
@@ -115,8 +120,6 @@ a {
     border: 4px solid pink;
     border-radius: 20px;
 }
-
-
 
 .footer {
     background: pink;
@@ -182,9 +185,9 @@ button {
     /* border: 2px solid black; */
 }
 
-.modal-text {
-    /* border: 2px solid black; */
-}
+/* .modal-text {
+    border: 2px solid black;
+} */
 
 .modal-button {
     display: flex;
@@ -193,10 +196,10 @@ button {
 }
 
 .signup {
-    
     border: 1px solid white;
     color: white;
 }
+
 /* img {
     height: 400px;
     width: 400px;
