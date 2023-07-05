@@ -9,6 +9,7 @@ body {
     align-items: center; */
     font-family: 'Grandiflora One', serif;
     font-weight: 900;
+    width: 100%;
 }
 
 .header {
