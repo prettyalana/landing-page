@@ -9,23 +9,35 @@ body {
     font-weight: 900;
 }
 
-.header {
+.first-page {
     background: pink;
     color: white;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container {
+.header-container {
+    background: pink;
+    color: white;
+    padding: 16px;
+    /* display: flex; */
+    /* border: 10px solid blue; */
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
-    margin: auto;
     padding: 16px;
 }
 
 .logo {
    font-size: 24px;
    font-weight: 900;
-   padding: 16px;
+   padding: 8px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -44,6 +56,7 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 8px;
 }
 
 li {
@@ -64,20 +77,38 @@ a {
 }
 
 .main-container {
-    margin: 20px;
-    max-height: 600px;
+    display: flex;
+    padding: 16px;
+    gap: 8px;
+    /* border: 10px solid red; */
+}
+
+.main-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
 }
 
 .main-header {
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 900;
 }
 
-
-.image img {
-    max-height: 400px;
+.image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid green; */
 }
 
+.main-image {
+    height: auto;
+    max-width: 100%;
+    /* border: 5px solid fuchsia; */
+}
 
 .information {
     background: white;
@@ -94,7 +125,7 @@ a {
 
 .info-header {
     font-weight: 900;
-    font-size: 48px;
+    font-size: 30px;
     margin: 40px;
 }
 
@@ -153,6 +184,7 @@ button {
    font-weight: lighter;
    font-style: italic; 
    color: #1f2937;
+   text-align: center;
 }
 
 .sign-up-page {
