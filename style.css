@@ -22,8 +22,6 @@ body {
     background: pink;
     color: white;
     padding: 16px;
-    /* display: flex; */
-    /* border: 10px solid blue; */
     width: 100%;
     margin-bottom: 50px;
 }
@@ -80,7 +78,6 @@ a {
     display: flex;
     padding: 16px;
     gap: 8px;
-    /* border: 10px solid red; */
 }
 
 .main-info {
@@ -101,13 +98,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 5px solid green; */
 }
 
 .main-image {
     height: auto;
     max-width: 100%;
-    /* border: 5px solid fuchsia; */
 }
 
 .information {
@@ -198,8 +193,6 @@ button {
 .modal {
     background-color: rgb(255, 206, 214);
     padding: 50px;
-    /* width: 1000px; */
-    /* display: flex; */
     border-radius: 10px;
     display: flex;
     gap: 50px;    
