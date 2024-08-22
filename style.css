@@ -7,6 +7,7 @@ body {
   flex-direction: column;
   font-family: "Grandiflora One", serif;
   font-weight: 900;
+  width: 100vw;
 }
 
 .first-page {
@@ -16,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .header-container {
@@ -93,6 +95,12 @@ a {
   font-weight: 900;
 }
 
+@media (max-width: 580px) {
+  .main-header {
+    font-size: 20px;
+  }
+}
+
 .image-container {
   width: 50%;
   display: flex;
@@ -102,6 +110,7 @@ a {
 
 .main-image {
   height: auto;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -149,9 +158,9 @@ a {
 button {
   background: rgb(255, 206, 214);
   color: #f9faf8;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 900;
-  padding: 16px;
+  padding: 8px;
   height: 70px;
   width: 250px;
   border-radius: 20px;
@@ -201,9 +210,25 @@ button {
   font-size: 24px;
   font-weight: 900;
 }
+
 .modal-button {
   display: flex;
   justify-content: flex-end;
+}
+
+@media (max-width: 690px) {
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-title {
+    text-align: center;
+  }
+  .modal-text {
+    text-align: center;
+  }
 }
 
 .signup {
