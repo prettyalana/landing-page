@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap");
 
-body {
+html, body {
   margin: 0;
   padding: 0;
   display: flex;
@@ -45,7 +45,8 @@ body {
 }
 
 .logo img {
-  width: 100px;
+  max-height: 100px;
+  max-width: 100px;
   border-radius: 100%;
   border: 1px solid #f9faf8;
 }
